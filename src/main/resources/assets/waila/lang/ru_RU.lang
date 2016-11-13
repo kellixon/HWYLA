@@ -1,9 +1,11 @@
+screen.button.waila=Waila
 screen.button.modules=Модули
 screen.label.scale=Размер
 screen.label.dragtuto=Тащите интерфейс, чтобы изменить позицию.
 
 screen.button.default=По умолчанию
 screen.button.cancel=Отмена
+screen.button.ok=Ок
 screen.button.yes=Да
 screen.button.no=Нет
 screen.button.back=Назад
@@ -18,9 +20,21 @@ choice.toggledmaintained=Переключ./Нажатая клав.
 choice.showliquids=Жидкости
 choice.shifttoggledblock=Приседание показывает блоки
 choice.shifttoggledents=Приседание показывает сущностей
+choice.hidefromlist=Скрыть из списка игроков
+choice.format.modname=Название мода
+choice.format.blockname=Название блока
+choice.format.fluidname=Название жидкости
+choice.format.entityname=Название сущности
+choice.format.metadata=Метаданные
+choice.format.background=Цвет фона
+choice.format.gradienttop=Градиент цвета (Сверху)
+choice.format.gradientbottom=Градиент цвета (Внизу)
+choice.format.font=Цвет текста
 screen.button.configureaspect=Настроить внешний вид...
+screen.button.configureformat=Формат контента...
+screen.button.exporttheme=Экспорт темы
 
-enchant.title.name=Название
+enchant.title.name=Имя
 enchant.title.minlvl=Мин. уровень
 enchant.title.maxlvl=Макс. уровень
 enchant.title.weight=Вес
@@ -80,6 +94,7 @@ hud.msg.green=Зелёный
 hud.msg.red=Красный
 hud.msg.black=Чёрный
 
+hud.msg.health=Здоровье
 hud.msg.growth=Рост
 hud.msg.mature=Вырос
 hud.msg.off=Выкл.
@@ -89,9 +104,18 @@ hud.msg.delay=Задержка
 hud.msg.comparator=Компаратор
 hud.msg.substractor=Вычитатель
 hud.msg.record=Пластинка
+hud.msg.toomuch=Слишком много...
 
 hud.msg.offers=Предложения
 hud.msg.demands=Запросы
+
+hud.msg.career=Успех: %s
+
+hud.item.melonstem=Стебель дыни
+hud.item.pumpkinstem=Стебель тыквы
+
+cfg.theme.vanilla=Ванилла
+cfg.theme.dark=Тёмная
 
 option.appeng.monitorcontent=Содержимое монитора
 option.bb.content=Содержимое бочки
@@ -123,6 +147,7 @@ option.vanilla.comparator=Режим компаратора
 option.vanilla.redstone=Сила красного камня
 option.vanilla.jukebox=Пластинка в проигрывателе
 option.vanilla.silverfish=Спрятать чешуйницу
+option.vanilla.furnacedisplay=Показывать прогресс печи
 option.etb.displaydata=Показывать инф. о сокетах
 option.enderio.inout=Показывать ввод/вывод
 option.enderio.storage=Показывать заряд MJ
@@ -141,6 +166,13 @@ option.carpenters.hide=Спрятать камуфляжные блоки
 option.stevescarts.showall=Показывать данные
 option.stevescarts.colorblind=Режим цветокоррекции
 option.stevescarts.shifttoggle=Приседание показывает
+option.general.showents=Показывать сущностей
 option.general.showhp=Показывать здоровье сущностей
 option.general.showcrop=Показывать рост растений
+option.general.registry=Показывать данные реестра
+option.capability.tankinfo=Показывать данные бака
+option.capability.energyinfo=Показывать данные энергии
+option.capability.inventoryinfo=Показывать данные инвентаря
 option.thaumcraft.aspects=Показывать аспекты
+
+nei.options.keys.showenchant=Показывать стоимость зачарования
